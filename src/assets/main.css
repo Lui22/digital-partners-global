@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.legend {
+    color: #959494;
+    font-size: 12px;
+}
+
+.legend_row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.legend_column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.legend__text:first-letter {
+    text-transform: uppercase;
+}
